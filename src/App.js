@@ -1,20 +1,20 @@
 import React from "react";
 import './App.css'
 
-const Card = (props) => {
+const Card = () => {
   return (
     <div className="card">
-      <div className="square"></div>
-      <p className="color-code">#FF6663</p>
+      <div className="square"/>
+      <label className="label__style">#FF6663</label>
     </div>
   );
 }
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <Card />
-    </div>
+    </div>  
   );
 }
 
