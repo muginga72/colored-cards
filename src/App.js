@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css'
 
-const Box = () => {
+const Card = (props) => {
   return (
-    <div className="box">
-      <div className="red-square"></div>
-      <p className="text-bold">#FF6663</p>
+    <div className="card">
+      <div className="square"></div>
+      <p className="color-code">#FF6663</p>
     </div>
   );
 }
@@ -13,9 +13,7 @@ const Box = () => {
 function App() {
   return (
     <div>
-      <Box />
-      <Box />
-      <Box />
+      <Card />
     </div>
   );
 }
