@@ -1,28 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.card {
-  display: inline-block;
-  box-shadow: 0 0 15px -2px #000000;
-  padding: 10;
-  margin: 20;
-  gap: 2rem;
-  background-color: #FFF;
-  justify-content: center;
-}
-
-.label__style {
-  display: inline-block;
-  background-color: #FFF;
-  font-weight: bold;
+.body {
+  background-color: #fff;
   width: 100px;
-  height: 50px;
-  padding: 10px;
+  height: 150px;
 }
 
 .square {
@@ -31,10 +10,26 @@
   height: 100px;
 }
 
+.label__style {
+  display: grid;
+  font-weight: bold;
+  margin:15px;
+  padding: 10;
+  justify-content: start;
+}
+
+.card {
+  background-color: #fff;
+  margin: 20;
+  gap: 2rem;
+  justify-content: center;
+  box-shadow: 0 0 15px -2px #000000;
+}
+
 .wrapper {
   display: grid;
-  margin: 20;
-  padding: 10;
-  gap: 1rem;
+  margin: 10;
+  padding: 10; 
+  gap: .5rem;
   justify-content: center;
 }
