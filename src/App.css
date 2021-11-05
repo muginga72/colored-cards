@@ -1,7 +1,13 @@
-.body {
+/* ================ STYLING ================= */
+
+.card {
   background-color: #fff;
   width: 100px;
   height: 150px;
+  padding: 5;
+  gap: 2rem;
+  justify-content: center;
+  box-shadow: 0 0 15px -2px #000000;
 }
 
 .square {
@@ -10,25 +16,17 @@
   height: 100px;
 }
 
-.label__style {
+.label {
   display: grid;
   font-weight: bold;
-  margin:15px;
+  margin: 15px;
   padding: 10;
   justify-content: start;
 }
 
-.card {
-  background-color: #fff;
-  margin: 20;
-  gap: 2rem;
-  justify-content: center;
-  box-shadow: 0 0 15px -2px #000000;
-}
-
 .wrapper {
   display: grid;
-  margin: 10;
+  margin: 20;
   padding: 10; 
   gap: .5rem;
   justify-content: center;

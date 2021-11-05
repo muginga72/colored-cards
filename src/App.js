@@ -1,23 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import './App.css'
-
-const Card = () => {
-  return (
-    <div className="card" >
-      <div className="body">
-        <div className="square" />
-        <div>
-          <label className="label__style">
-            #FF6663</label>
-        </div>
-      </div>
-    </div>
-  );
-}
+import Card from "./Card";
 
 function App() {
-  return(
+  const [cards, setCards] = useState('');
+
+  return (
     <div className="wrapper">
+      <h1 style={{ color: 'blue' }}>Card</h1>
       <Card />
     </div>
   );
