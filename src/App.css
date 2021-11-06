@@ -1,33 +1,32 @@
 /* ================ STYLING ================= */
 
-.card {
+.card_style {
   background-color: #fff;
   width: 100px;
-  height: 150px;
-  padding: 5;
+  height: 135px;
+  padding: 0;
   gap: 2rem;
   justify-content: center;
   box-shadow: 0 0 15px -2px #000000;
 }
 
 .square {
-  background-color: #ff6663;
   width: 100px;
   height: 100px;
 }
 
-.label {
+p {
   display: grid;
   font-weight: bold;
-  margin: 15px;
+  margin: 5px;
   padding: 10;
   justify-content: start;
 }
 
 .wrapper {
   display: grid;
-  margin: 20;
-  padding: 10; 
-  gap: .5rem;
+  margin: 10;
+  padding: 5; 
+  gap: .4rem;
   justify-content: center;
 }

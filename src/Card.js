@@ -1,13 +1,11 @@
 import React from "react";
-import Square from "./Square";
 import Label from "./Label";
 
-function Card() {
+function Card(props) {
   return (
-    <div className="card">
-      <Square />
+    <div className="card_style">
       <Label />
-    </div>
+    </div>  
   )
 }
 
