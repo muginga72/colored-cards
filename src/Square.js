@@ -1,9 +1,20 @@
 import React from 'react'
 
-function Square(props) {
+function Square({ color }) {
+  const square = (props) => {
+    return (
+      <div className="square">
+        <div style={{ backgroundColor: props.color }} className="square"></div>
+        <p className="text-bold">{ props.color }</p>
+      </div>
+    )
+  }
+
   return (
     <div>
-      <div className="square" />
+      {color.map((color) => (
+        <Square color={color} />
+      ))}
     </div>
   )
 }

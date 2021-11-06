@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Label() {
+function Label(props) {
   return (
-    <div className="label" >
-        <div>
-          <label>#FF6663</label>
-        </div>
+    <div className="label_style" >
+        <div>{props.label}</div>
     </div>
   );
 }
